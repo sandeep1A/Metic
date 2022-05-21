@@ -106,7 +106,11 @@
             </ProgressBar>
 
         </FrameLayout>
-
-
+        <ImageView
+            android:id="@+id/vidan"
+            android:layout_width="408dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/vidan"/>
     </LinearLayout>
 </ScrollView>
