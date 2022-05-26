@@ -106,6 +106,7 @@
             </ProgressBar>
 
         </FrameLayout>
+
         <ImageView
             android:id="@+id/vidan"
             android:layout_width="408dp"

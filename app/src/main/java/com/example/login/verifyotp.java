@@ -73,7 +73,7 @@ public class verifyotp extends AppCompatActivity {
                                         verifybuttonclick.setVisibility(View.VISIBLE);
 
                                         if (task.isSuccessful()){
-                                            Intent intent = new Intent(getApplicationContext(),mainpage.class);
+                                            Intent intent = new Intent(getApplicationContext(),introdetails.class);
                                             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK|Intent.FLAG_ACTIVITY_CLEAR_TASK);
                                             startActivity(intent);
                                             }
