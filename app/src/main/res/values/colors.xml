@@ -13,5 +13,7 @@
     <color name="purpleshade">#ffe1bee7</color>
     <color name="purplelite">#fff3e5f5</color>
     <color name="purpledark">#ff9c27b0</color>
+    <color name="voilet">#937eb1</color>
+    <color name="voiletdark">#FF564A67</color>
 
 </resources>

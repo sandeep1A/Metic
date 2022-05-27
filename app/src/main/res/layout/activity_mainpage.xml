@@ -5,9 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mainpage"
-    android:background="#acd5ad"
+    android:background="#7B639E"
     android:gravity="center"
     android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF"
+        android:minHeight="?attr/actionBarSize"
+        android:navigationIcon="@drawable/ic_iconbar"
+        android:theme="?attr/actionBarTheme"
+        android:layout_marginTop="-30dp"/>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview1"
@@ -16,7 +26,8 @@
         app:cardElevation="5dp"
         app:cardCornerRadius="15dp"
         android:background="@color/green"
-        app:cardBackgroundColor="@color/purpleshade">
+        android:layout_marginTop="5dp"
+        app:cardBackgroundColor="@color/greenshade">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -79,13 +90,14 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="6dp">
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cardview2"
             android:layout_width="350dp"
             android:layout_height="200dp"
             app:cardCornerRadius="10dp"
             android:background="@drawable/icon"
-            app:cardBackgroundColor="@color/purpleshade">
+            app:cardBackgroundColor="@color/greenshade">
             <LinearLayout
                 android:layout_width="350dp"
                 android:layout_height="150dp"
@@ -119,7 +131,7 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="30dp"
-                    app:srcCompat="@drawable/ic_map"
+                    app:srcCompat="@drawable/ic_imap"
                     android:background="@drawable/icon"/>
 
 
